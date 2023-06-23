@@ -34,4 +34,25 @@ contract Transactions {
     function getTransactionCount() public view returns (uint256) {
         return transactionCount;
     }
+
+    function getTransactionsBySender(address sender) public view returns (TransferStruct[] memory) {
+        uint256 count = 0;
+        for (uint256 i = 0; i < transactions.length; i++) {
+            if (transactions[i].sender == sender) {
+                count++;
+            }
+        }
+
+        TransferStruct[] memory senderTransactions = new TransferStruct[](count);
+
+        uint256 j = 0;
+        for (uint256 i = 0; i < transactions.length; i++) {
+            if (transactions[i].sender == sender) {
+                senderTransactions[j] = transactions[i];
+                j++;
+            }
+        }
+
+        return senderTransactions;
+    }
 }
