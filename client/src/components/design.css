@@ -1,0 +1,27 @@
+.button-design {
+    width: 200px;
+    height: 28px;
+    background: #0f0e13;
+    color: white;
+    border-radius: 14px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 650px;
+}
+
+.button-design:hover {
+    width: 210px;
+    height: 30px;
+    background: #3f3e57;
+    color: white;
+    border-radius: 14px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 650px;
+}
+
+.header-design {
+    width: 51px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
