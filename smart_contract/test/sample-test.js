@@ -18,7 +18,7 @@ describe("Greeter", function () {
   });
 });
 
-describe("Transactions", function () {
+describe("Transactions - getAlltransaction", function () {
   let Transactions;
   let transactions;
   let owner;
@@ -52,7 +52,7 @@ describe("Transactions", function () {
     expect(transactionList[0].keyword).to.equal("keyword");
   });
 
-  describe("Transaction errors", function() {
+  describe("Transaction errors", function () {
     it("should fail if the amount is incorrect", async function () {
       await expect(transactions.connect(owner).addToBlockchain(addr1.address, ethers.utils.parseEther("1.0"), "Test transaction", "keyword", { value: ethers.utils.parseEther("0.5") })).to.be.revertedWith("Amount is not correct!");
     });
@@ -63,7 +63,7 @@ describe("Transactions", function () {
   });
 });
 
-describe("Transactions", function () {
+describe("Transactions - getTransactionsBySender", function () {
   let Transactions;
   let transactions;
   let owner;
