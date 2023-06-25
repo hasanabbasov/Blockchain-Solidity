@@ -78,6 +78,9 @@ This app is giving the ability of buying or selling things easily with Ethereum 
 ## CODE EXPLANATION
 - ### 4.1. Client
   Client side is the frontend part of the project made by using react and vite. There are components and hooks that can handle creating, submitting, and displaying an Ethereum transaction.
+
+<img width="565" alt="image" src="https://github.com/hasanabbasov/Blockchain-Solidity/assets/112394012/fa941bbd-51fb-425c-ad5e-8ffc792c84a5">
+
 -
   **TransactionCard component:** Displays each Ethereum transaction on a separate card. Each card shows the address the transaction was sent to, the address the transaction was sent to, the amount, a possible message, and the timestamp of the transaction. There is also a link showing the corresponding process at etherscan.io.
 -
@@ -89,6 +92,10 @@ This app is giving the ability of buying or selling things easily with Ethereum 
   wallet is connected when the page loads and gets the current transactions.
 
 - ### 4.2. Solidity
+- 
+<img width="1059" alt="image" src="https://github.com/hasanabbasov/Blockchain-Solidity/assets/112394012/ff6ab9e0-b314-4659-a37b-14b7690c6f6d">
+
+
  - **addToBlockchain():** The addToBlockchain function is a public function within the Solidity smart contract. Its purpose is to add a new transaction to the blockchain by storing the transaction details in the transactions array.
 1. The function takes four parameters:
    - 1. **receiver:** The address of the transaction receiver (payable).
