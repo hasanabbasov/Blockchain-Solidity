@@ -92,7 +92,7 @@ This app is giving the ability of buying or selling things easily with Ethereum 
   wallet is connected when the page loads and gets the current transactions.
 
 - ### 4.2. Solidity
-- 
+
 <img width="1059" alt="image" src="https://github.com/hasanabbasov/Blockchain-Solidity/assets/112394012/ff6ab9e0-b314-4659-a37b-14b7690c6f6d">
 
 
