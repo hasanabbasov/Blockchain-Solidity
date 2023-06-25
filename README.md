@@ -20,7 +20,7 @@
 ### 1.2 ETHEREUM
 Ethereum is an open-source blockchain platform that enables the development and execution of decentralized applications and smart contracts. It was proposed by Vitalik Buterin in 2013 and launched in 2015. While Bitcoin primarily serves as a digital currency, Ethereum extends the functionality of blockchain technology to enable programmable transactions and the creation of decentralized applications.
 
-_Ethereum's key features:_
+_**Ethereum's key features:**_
 
 - ### 1.2.1. Smart Contracts
   Ethereum introduced the concept of smart contracts, which are self-executing agreements with the terms of the contract directly written into the code. These contracts automatically execute when predefined conditions are met, removing the need for intermediaries, and enhancing efficiency in various domains, including finance, supply chain management, gaming, and more.
@@ -58,21 +58,20 @@ _Ethereum's key features:_
 ## 3. USER INTERFACE
 In main page of the website first of all there is a card which shows your wallet information. It shows the address of your wallet for Ethereum. We are showing the address by hiding some parts to keep it safe.
 
-![blockchain02.jpeg](..%2F..%2Fblockchain02.jpeg)
+![blockchain02](https://github.com/hasanabbasov/Blockchain-Solidity/assets/112394012/d863420f-f8fc-4a55-8dfc-3c7d532d5639)
 
 Then there is a form field for sending Ethereum to someone else. When you want to send Ethereum to someone else, you fill out a form with all
 the important details like who you're sending it to, how much you're sending,
 and why you're sending it. Then the app uses that information to make sure
 the transaction goes smoothly.
 
-![blockchain02.jpeg](..%2F..%2Fblockchain02.jpeg)
+![blockchain03](https://github.com/hasanabbasov/Blockchain-Solidity/assets/112394012/fa621801-1792-495c-ac8d-e32f855a9fed)
 
-![blockchain01.jpeg](..%2F..%2Fblockchain01.jpeg)
+![blockchain01](https://github.com/hasanabbasov/Blockchain-Solidity/assets/112394012/f7ad949b-37ab-4798-bd2c-e92ae6fbbda6)
 
 By clicking to the ‘Connect Wallet’ button, it allows you to link your special wallet to the app. This special wallet is called Ethereum wallet, and it lets you do the thing like sending Ethereum etc. So, for connecting your wallet we used MetaMask. When user clicks the connect wallet button the app gets your Ethereum wallet address and other information via MetaMask.
 
-![blockchain04.jpeg](..%2F..%2Fblockchain04.jpeg)
-
+![blockchain04](https://github.com/hasanabbasov/Blockchain-Solidity/assets/112394012/674b36d9-45fc-4cb0-a102-2994c0969b53)
 
 This app is giving the ability of buying or selling things easily with Ethereum which is a digital money. It is also providing the track of their digital wallets to see how much Ethereum they have and to ability to see what they bought before. The project is supporting or helping people to using Ethereum easily in their everyday life.
 
