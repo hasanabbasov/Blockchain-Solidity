@@ -95,8 +95,8 @@ This app is giving the ability of buying or selling things easily with Ethereum 
 
 <img width="1059" alt="image" src="https://github.com/hasanabbasov/Blockchain-Solidity/assets/112394012/ff6ab9e0-b314-4659-a37b-14b7690c6f6d">
 
-
- - **addToBlockchain():** The addToBlockchain function is a public function within the Solidity smart contract. Its purpose is to add a new transaction to the blockchain by storing the transaction details in the transactions array.
+- 
+  **addToBlockchain():** The addToBlockchain function is a public function within the Solidity smart contract. Its purpose is to add a new transaction to the blockchain by storing the transaction details in the transactions array.
 1. The function takes four parameters:
    - 1. **receiver:** The address of the transaction receiver (payable).
    - 2. **amount:** The amount of the transaction.
